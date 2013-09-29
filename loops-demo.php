@@ -5,12 +5,18 @@
 
 <title>Class 4 - Loops</title>
 
-<link rel="stylesheet" href="loops.css" type="text/css">
+	<?php
+	require('loops-logic.php')
+	?>
+
+	<link rel="stylesheet" href="loops.css" type="text/css">
 </head>
 	
 	
 
 <body>
+
+	<div class='card
 
 </body>
 </html>
