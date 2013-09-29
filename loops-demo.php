@@ -10,13 +10,11 @@
 	?>
 
 	<link rel="stylesheet" href="loops.css" type="text/css">
+
 </head>
 	
-	
-
 <body>
 
-	<div class='card
 
 </body>
 </html>
