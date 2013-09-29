@@ -15,6 +15,7 @@
 	
 <body>
 
+	<?=$boxes?>
 
 </body>
 </html>
