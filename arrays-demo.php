@@ -6,24 +6,20 @@
 <title>Class 4 - Arrays</title>
 	
 	<?php
-	require_once("arrays-logic.php");
+	require_once('arrays-logic.php');
 	?>
 
-	<link rel="stylesheet" href="arrays.css" type="text/css">
+	<link rel='stylesheet' href='arrays.css' type='text/css'>
+
 </head>
 	
-	
-
 <body>
 
-	<pre>
 	<?php
-	print_r($contestants);
+	foreach($contestants as $key => $value) {
+		echo $key." is ".$value."<br>";
+	}
 	?>
-	</pre>
-	
-	Jill is a <?=$contestants["Jill"]?>
-	Sam is a <?=$contestants["Sam"]?>
 
 </body>
 </html>
