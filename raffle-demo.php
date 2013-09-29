@@ -16,6 +16,17 @@
 <body>
 
 
+<!----- Form ----->
+	<form action='raffle-demo.php' method='POST'>
+		<input type='text' name='contestant1'><br>
+		<input type='text' name='contestant2'><br>
+		<input type='text' name='contestant3'><br>
+		<input type='text' name='contestant4'><br>
+		<input type='submit'>
+	</form>
+<!----- End Form ----->
+
+
 <!----- Example of above PHP in a table ----->
 
 	<table>
