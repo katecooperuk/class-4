@@ -20,6 +20,13 @@
 		echo $key." is ".$value."<br>";
 	}
 	?>
+	
+	<?php
+	foreach($contestants as $key => $value):
+		echo $key." is ".$value."<br>";
+	endforeach;
+	?>
+
 
 </body>
 </html>
