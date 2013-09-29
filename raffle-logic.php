@@ -1,23 +1,27 @@
 <?php
 
-$contestants['Sam'] = '';
-$contestants['Bob'] = '';
-$contestants['Jill'] = '';
-$contestants['Eliot'] = '';
+// echo "<pre>";
+// print_r($_POST);
+// echo "</pre>";
+
+// $contestants['Sam'] = '';
+// $contestants['Bob'] = '';
+// $contestants['Jill'] = '';
+// $contestants['Eliot'] = '';
 
 $winning_number = rand(0,4);
 	
-foreach($contestants as $key => $value) {
+foreach($_POST as $field_name => $contestant_name) {
 
 	$contestants_random_number = rand(0,4);
 	
-	//Winner!
+	// Winner!
 	if($winning_number == $contestants_random_number) {
-		$contestants[$key] = 'Winner';
+		$contestants[$contestant_name] = 'Winner';
 	}
-	//Loser :(
+	// Loser :(
 	else {
-		$contestants[$key] = 'Loser';
+		$contestants[$contestant_name] = 'Loser';
 	}		
 		
 }
